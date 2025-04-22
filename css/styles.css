@@ -167,16 +167,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    max-width: 1440px;
 }
 
 .title {
+    max-width: 1440px;  
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;    
+    padding: 188px 0;  
 }
 
 .title-text {
@@ -414,7 +414,7 @@ main {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .overlay {
+.portfolio-card:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
